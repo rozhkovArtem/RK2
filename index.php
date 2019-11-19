@@ -5,14 +5,13 @@
 <body>
 <strong>Рожков А.А., ИУ4 - 12Б, Вариант 9</strong><br>
 <h2>Задание 1</h2>
-<ol>
-<p><?php
+<select>
+<?php
 for ($i=1900; $i < 2101 ; $i++) { 
-	echo '<li>', $i, 'г.',  '</li>';
+	echo '<option>', $i, 'г.',  '</option>';
 }
 ?>
-</p>
-</ol>
+</select>
 <h2>Задание 2</h2>
 <form action="" method="post">
 Введите коэфициенты квадратного уравнения: <br>
